@@ -1,0 +1,79 @@
+/*
+    Name: Jacob Strider
+    Date: 1/30/2026
+    CSC 372-01
+
+    The CSS for destination.html
+    Styles headings, paragraphs, lists, images, blockquotes, and links.
+    Extra Features: Background image, tooltips on "Must See Spots".
+*/
+
+body {
+    background-color: white;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+    color: #404040;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 11pt;
+
+    margin: 25px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #a4a400;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 18pt;
+    font-weight: normal;
+    text-decoration: underline;
+    color: #a4a400;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+p {
+    max-width: 900px;
+}
+
+ol, 
+ul {
+    max-width: 850px;
+    padding-left: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #404040;
+}
+
+figcaption {
+    font-size: 10pt;
+    margin-top: 5px;
+}
+
+blockquote {
+    background-color: #ffffa8;
+    font-style: italic;
+    margin: 25px 40px;
+    padding: 15px;
+    border-left: 4px solid #a4a400;
+}
+
+a {
+    color: #a4a400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

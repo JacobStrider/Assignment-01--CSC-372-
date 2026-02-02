@@ -1,0 +1,49 @@
+/*
+    Name: Jacob Strider
+    Date: 1/30/2026
+    CSC 372-01
+
+    The CSS for index.html
+    Styles background image, headings, paragraphs, links, and content boxes.
+    Extra Features: Background image, tooltips on "Must See Spots".
+*/
+
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    line-height: 1.4;
+    color: white;
+    font-weight: bold;
+    
+}
+
+header,
+main,
+footer {
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+h1,
+h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 18pt;
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 5px;
+    max-width: 900px;
+}
